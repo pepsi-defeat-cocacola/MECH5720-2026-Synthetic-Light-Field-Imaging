@@ -1,0 +1,11 @@
+{
+  "snapshot_created_utc": "2026-10-23T02:59:05.050206+00:00",
+  "python_version": "3.12.13 (main, Aug  7 2026, 02:25:39) [Clang 22.1.3 ]",
+  "software_sha256": {
+    "acquisition_core.py": "72cb421f5e3372d7f91edb3ba54311f5c3856e6f9cd87ea8dcfc010197bb9dc3",
+    "legacy_capture_backend.py": "79868412c465263de940a134d6366dc78e859b86fd308e6a42e7b9282f17d89e",
+    "panel_v8.py": "7b4835f88ba113216cfcd7b60f4357a686e215afa197d8c55b6a5c5b24194c35",
+    "verify_and_export.py": "e4b82c1f575c05ad1cd32386b044b7be437534f9032df8e2add7e06c4264fe63"
+  },
+  "note": "Snapshot of laptop code when campaign was first created; no Pi service change implied."
+}
