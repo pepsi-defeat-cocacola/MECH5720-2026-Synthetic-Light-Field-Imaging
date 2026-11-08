@@ -1,0 +1,42 @@
+{
+  "schema_version": "8.0",
+  "session_created_utc": "2026-10-23T06:36:25.009446+00:00",
+  "mode": "snr",
+  "name": "snr_uniform_mid",
+  "description": "Temporal RAW noise measurement of a stationary five-object textured scene",
+  "steps": [
+    {
+      "step_id": 1,
+      "cycle_index": 1,
+      "position_index": 1,
+      "nominal_x_mm": 100.0,
+      "repeats": 24
+    }
+  ],
+  "scene_condition": "textured",
+  "geometry": {
+    "axis": "horizontal camera translation",
+    "nominal_baseline_mm": 0.0,
+    "position_uncertainty_mm": 0.5,
+    "depth_reference": "Not applicable to stationary uniform-surface SNR measurement. Camera fixed at x=100 mm; paper distance not measured because depth is not being evaluated.",
+    "depth_uncertainty_documented_in": "targets.csv"
+  },
+  "lighting": "Overhead room lights only; fixed",
+  "focus": "Fixed lens focus and camera orientation",
+  "roi_definition": "Central 400x400 RAW pixels: x=760:1160, y=340:740. Same ROI as uniform low.",
+  "reference_method": "",
+  "reference_kind": "",
+  "controls_requested": {
+    "exposure_us": 24000,
+    "gain": 4.0,
+    "ae": false
+  },
+  "api_url": "http://127.0.0.1:8090",
+  "camera_config": {
+    "width": 1920,
+    "height": 1080,
+    "format": "RGB888"
+  },
+  "notes": "Exactly the same uniform matte surface, camera position and room lighting as snr_uniform_low. Only exposure changed to 24000 µs. Analogue gain held at 4×, AE disabled. Capture 24 consecutive stationary RAW images. Used to compare signal and temporal noise against the low- and high-exposure sessions.",
+  "protocol_notes": "Temporal RAW SNR needs fixed camera/lighting and a documented ROI; use separate uniform/dark sessions if needed."
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": "8.0",
+  "session_created_utc": "2026-10-23T06:21:13.304291+00:00",
+  "mode": "reposition",
+  "name": "reposition_01",
+  "description": "Physical rail repositioning repeatability with five stationary textured objects at measured depths.",
+  "steps": [
+    {
+      "step_id": 1,
+      "cycle_index": 1,
+      "position_index": 1,
+      "nominal_x_mm": 0.0,
+      "repeats": 2
+    },
+    {
+      "step_id": 2,
+      "cycle_index": 1,
+      "position_index": 2,
+      "nominal_x_mm": 100.0,
+      "repeats": 2
+    },
+    {
+      "step_id": 3,
+      "cycle_index": 1,
+      "position_index": 3,
+      "nominal_x_mm": 180.0,
+      "repeats": 2
+    },
+    {
+      "step_id": 4,
+      "cycle_index": 2,
+      "position_index": 1,
+      "nominal_x_mm": 0.0,
+      "repeats": 2
+    },
+    {
+      "step_id": 5,
+      "cycle_index": 2,
+      "position_index": 2,
+      "nominal_x_mm": 100.0,
+      "repeats": 2
+    },
+    {
+      "step_id": 6,
+      "cycle_index": 2,
+      "position_index": 3,
+      "nominal_x_mm": 180.0,
+      "repeats": 2
+    },
+    {
+      "step_id": 7,
+      "cycle_index": 3,
+      "position_index": 1,
+      "nominal_x_mm": 0.0,
+      "repeats": 2
+    },
+    {
+      "step_id": 8,
+      "cycle_index": 3,
+      "position_index": 2,
+      "nominal_x_mm": 100.0,
+      "repeats": 2
+    },
+    {
+      "step_id": 9,
+      "cycle_index": 3,
+      "position_index": 3,
+      "nominal_x_mm": 180.0,
+      "repeats": 2
+    },
+    {
+      "step_id": 10,
+      "cycle_index": 4,
+      "position_index": 1,
+      "nominal_x_mm": 0.0,
+      "repeats": 2
+    },
+    {
+      "step_id": 11,
+      "cycle_index": 4,
+      "position_index": 2,
+      "nominal_x_mm": 100.0,
+      "repeats": 2
+    },
+    {
+      "step_id": 12,
+      "cycle_index": 4,
+      "position_index": 3,
+      "nominal_x_mm": 180.0,
+      "repeats": 2
+    },
+    {
+      "step_id": 13,
+      "cycle_index": 5,
+      "position_index": 1,
+      "nominal_x_mm": 0.0,
+      "repeats": 2
+    },
+    {
+      "step_id": 14,
+      "cycle_index": 5,
+      "position_index": 2,
+      "nominal_x_mm": 100.0,
+      "repeats": 2
+    },
+    {
+      "step_id": 15,
+      "cycle_index": 5,
+      "position_index": 3,
+      "nominal_x_mm": 180.0,
+      "repeats": 2
+    }
+  ],
+  "scene_condition": "textured",
+  "geometry": {
+    "axis": "horizontal camera translation",
+    "nominal_baseline_mm": 180.0,
+    "position_uncertainty_mm": 0.5,
+    "depth_reference": "Front of lens at x=100 mm; objects at 1400, 1500, 1700, 1200 and 1100 mm (left to right)",
+    "depth_uncertainty_documented_in": "targets.csv"
+  },
+  "lighting": "Overhead room lights only; fixed",
+  "focus": "Fixed lens focus and camera orientation",
+  "roi_definition": "",
+  "reference_method": "",
+  "reference_kind": "",
+  "controls_requested": {
+    "exposure_us": 32000,
+    "gain": 4.0,
+    "ae": false
+  },
+  "api_url": "http://127.0.0.1:8090",
+  "camera_config": {
+    "width": 1920,
+    "height": 1080,
+    "format": "RGB888"
+  },
+  "notes": "Five stationary product boxes at 1100, 1200, 1400, 1500 and 1700 mm. Camera repeatedly moved to nominal x=0, 100 and 180 mm. Five physically separate movement cycles, with two consecutive RAW exposures at every arrival. Fixed focus, camera orientation, gain, exposure and room lighting. Repositioning assessed from repeated returns, not only consecutive images at one stop.",
+  "protocol_notes": "Physically leave and return to each stop between cycles; log actual measured x and mark motion confirmation."
+}

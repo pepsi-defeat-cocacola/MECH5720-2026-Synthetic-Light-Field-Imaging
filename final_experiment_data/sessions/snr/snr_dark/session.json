@@ -1,0 +1,42 @@
+{
+  "schema_version": "8.0",
+  "session_created_utc": "2026-10-23T06:39:35.228825+00:00",
+  "mode": "snr",
+  "name": "snr_dark",
+  "description": "Dark RAW frame sequence for sensor offset and temporal dark-noise measurement",
+  "steps": [
+    {
+      "step_id": 1,
+      "cycle_index": 1,
+      "position_index": 1,
+      "nominal_x_mm": 100.0,
+      "repeats": 24
+    }
+  ],
+  "scene_condition": "textured",
+  "geometry": {
+    "axis": "horizontal camera translation",
+    "nominal_baseline_mm": 0.0,
+    "position_uncertainty_mm": 0.5,
+    "depth_reference": "Not applicable to stationary uniform-surface SNR measurement. Camera fixed at x=100 mm; paper distance not measured because depth is not being evaluated.",
+    "depth_uncertainty_documented_in": "targets.csv"
+  },
+  "lighting": "Overhead room lights only; fixed",
+  "focus": "Fixed lens focus and camera orientation",
+  "roi_definition": "Central 400x400 RAW pixels: x=760:1160, y=340:740. Same sensor ROI as uniform-exposure sessions.",
+  "reference_method": "",
+  "reference_kind": "",
+  "controls_requested": {
+    "exposure_us": 32000,
+    "gain": 4.0,
+    "ae": false
+  },
+  "api_url": "http://127.0.0.1:8090",
+  "camera_config": {
+    "width": 1920,
+    "height": 1080,
+    "format": "RGB888"
+  },
+  "notes": "Camera stationary at x=100 mm with the lens completely blocked using an opaque light-tight cover. Fixed exposure 32000 µs, analogue gain 4×, AE disabled. Capture 24 RAW dark frames with no light reaching the sensor. Room illumination left unchanged. Dark frames will be used to characterise sensor black-level offset and dark temporal fluctuations.",
+  "protocol_notes": "Temporal RAW SNR needs fixed camera/lighting and a documented ROI; use separate uniform/dark sessions if needed."
+}

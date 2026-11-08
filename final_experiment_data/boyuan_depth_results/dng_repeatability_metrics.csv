@@ -1,0 +1,2 @@
+calibration_a_px_half_raw,calibration_b_px_per_mm_half_raw,calibration_R2,n_holdout,RMSE_mm,MAE_mm,MAPE_percent,bias_mm,max_abs_error_mm,within_depth_repeatability_SD_mm,repeatability_limit_95_mm,max_within_depth_range_mm,min_match_score,min_disparity_fit_R2
+1452.0996938722412,0.0008875438205632804,0.9996209244854687,12,6.5749418445203105,5.796294986203198,0.38946932329396117,5.796294986203198,11.546648092886926,0.46213479025719206,1.280113369012422,1.4639945348126275,0.9499995708465576,0.9998637156130198

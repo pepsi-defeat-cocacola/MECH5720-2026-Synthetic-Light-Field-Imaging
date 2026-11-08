@@ -1,0 +1,42 @@
+{
+  "schema_version": "8.0",
+  "session_created_utc": "2026-10-23T05:57:47.246960+00:00",
+  "mode": "ssim_reference",
+  "name": "ssim_layers_3same_01",
+  "description": "Three-object layered scene with the same materials/textures at measured depths",
+  "steps": [
+    {
+      "step_id": 1,
+      "cycle_index": 1,
+      "position_index": 1,
+      "nominal_x_mm": 100.0,
+      "repeats": 3
+    }
+  ],
+  "scene_condition": "textured",
+  "geometry": {
+    "axis": "horizontal camera translation",
+    "nominal_baseline_mm": 0.0,
+    "position_uncertainty_mm": 0.5,
+    "depth_reference": "Front of lens at x=100 mm, measured straight forward",
+    "depth_uncertainty_documented_in": "targets.csv"
+  },
+  "lighting": "Overhead room lights only; fixed",
+  "focus": "Fixed lens focus and camera orientation",
+  "roi_definition": "",
+  "reference_method": "Three RAW reference captures at x=100 mm for single-view comparison after image registration. Not independent ground truth.",
+  "reference_kind": "single_view_proxy",
+  "controls_requested": {
+    "exposure_us": 32000,
+    "gain": 4.0,
+    "ae": false
+  },
+  "api_url": "http://127.0.0.1:8090",
+  "camera_config": {
+    "width": 1920,
+    "height": 1080,
+    "format": "RGB888"
+  },
+  "notes": "Three different product boxes with the same surface texture at different measured depths. All object depths recorded in targets.csv. Objects remained stationary during the sweep.",
+  "protocol_notes": "A captured reference is NOT automatically optical ground truth; agree on reference/registration with processing owners."
+}

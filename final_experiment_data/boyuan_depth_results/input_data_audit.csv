@@ -1,0 +1,9 @@
+session,manifest_rows,positions,repeats_per_position_min,repeats_per_position_max,DNG_count,PNG_preview_count,exposure_us_values,gain_values,max_saturated_percent,max_near_black_percent,structural_QC,issues
+lf_train_01,30,10,3,3,30,10,[32000],[4.0],0.022039,0.0,PASS,
+lf_train_02,30,10,3,3,30,10,[32000],[4.0],0.030623,0.0,PASS,
+lf_train_03,30,10,3,3,30,10,[32000],[4.0],0.005401,0.0,PASS,
+lf_train_04,30,10,3,3,30,10,[32000],[4.0],0.021557,0.0,PASS,
+lf_holdout_01,30,10,3,3,30,10,[32000],[4.0],0.018374,0.0,PASS,
+lf_holdout_02,30,10,3,3,30,10,[32000],[4.0],0.018422,0.0,PASS,
+lf_holdout_03,30,10,3,3,30,10,[32000],[4.0],0.011767,0.0,PASS,
+lf_holdout_04,30,10,3,3,30,10,[32000],[4.0],0.003858,0.0,PASS,

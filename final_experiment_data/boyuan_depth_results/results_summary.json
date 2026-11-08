@@ -1,0 +1,41 @@
+{
+  "data_root": "C:\\Users\\user\\Desktop\\M2\\Sensors and Signals\\Major Project\\major project\\final_experiment_data",
+  "output_dir": "C:\\Users\\user\\Desktop\\M2\\Sensors and Signals\\Major Project\\major project\\final_experiment_data\\boyuan_depth_results",
+  "calibration_model": {
+    "a_px": 1802.4945828459258,
+    "b_px_per_mm": 0.010971049475527177,
+    "calibration_R2": 0.9998402433317203
+  },
+  "holdout_metrics": {
+    "n_holdout": 4,
+    "RMSE_mm": 7.985810252772587,
+    "MAE_mm": 6.846387275547784,
+    "MAPE_percent": 0.45176514738728785,
+    "bias_mm": 6.846387275547784,
+    "max_abs_error_mm": 13.301391300464502,
+    "RMSE_CI95_low": 3.721291241547257,
+    "RMSE_CI95_high": 11.764819035742775,
+    "MAE_CI95_low": 3.424886814402157,
+    "MAE_CI95_high": 11.171420931188266,
+    "MAPE_CI95_low": 0.2558064081220702,
+    "MAPE_CI95_high": 0.6787781987728825
+  },
+  "best_tested_viewpoint_count": 7,
+  "best_tested_baseline_mm": 120,
+  "dng_repeatability": {
+    "calibration_a_px_half_raw": 1452.0996938722412,
+    "calibration_b_px_per_mm_half_raw": 0.0008875438205632804,
+    "calibration_R2": 0.9996209244854687,
+    "n_holdout": 12,
+    "RMSE_mm": 6.5749418445203105,
+    "MAE_mm": 5.796294986203198,
+    "MAPE_percent": 0.38946932329396117,
+    "bias_mm": 5.796294986203198,
+    "max_abs_error_mm": 11.546648092886926,
+    "within_depth_repeatability_SD_mm": 0.46213479025719206,
+    "repeatability_limit_95_mm": 1.280113369012422,
+    "max_within_depth_range_mm": 1.4639945348126275,
+    "min_match_score": 0.9499995708465576,
+    "min_disparity_fit_R2": 0.9998637156130198
+  }
+}

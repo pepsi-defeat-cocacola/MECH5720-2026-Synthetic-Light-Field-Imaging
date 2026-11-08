@@ -1,0 +1,42 @@
+{
+  "schema_version": "8.0",
+  "session_created_utc": "2026-10-23T06:29:01.574554+00:00",
+  "mode": "snr",
+  "name": "snr_textured",
+  "description": "Temporal RAW noise measurement of a stationary five-object textured scene",
+  "steps": [
+    {
+      "step_id": 1,
+      "cycle_index": 1,
+      "position_index": 1,
+      "nominal_x_mm": 100.0,
+      "repeats": 24
+    }
+  ],
+  "scene_condition": "textured",
+  "geometry": {
+    "axis": "horizontal camera translation",
+    "nominal_baseline_mm": 0.0,
+    "position_uncertainty_mm": 0.5,
+    "depth_reference": "Front of lens at x=100 mm; objects at 1400, 1500, 1700, 1200 and 1100 mm (left to right)",
+    "depth_uncertainty_documented_in": "targets.csv"
+  },
+  "lighting": "Overhead room lights only; fixed",
+  "focus": "Fixed lens focus and camera orientation",
+  "roi_definition": "Fixed textured-object ROI selected during RAW analysis; exclude object edges, glare and shadows. Temporal noise calculated from the same registered pixels across all 24 frames.",
+  "reference_method": "",
+  "reference_kind": "",
+  "controls_requested": {
+    "exposure_us": 32000,
+    "gain": 4.0,
+    "ae": false
+  },
+  "api_url": "http://127.0.0.1:8090",
+  "camera_config": {
+    "width": 1920,
+    "height": 1080,
+    "format": "RGB888"
+  },
+  "notes": "Five stationary product boxes at measured depths 1100, 1200, 1400, 1500 and 1700 mm. Same arrangement as lf_layers_5obj_01. Camera fixed at x=100 mm. Capture 24 consecutive RAW images without moving camera, objects or illumination. Exposure 32000 µs, gain 4×, AE disabled. Texture, printed graphics and surface reflectivity present; temporal noise will be measured from identical registered pixel locations.",
+  "protocol_notes": "Temporal RAW SNR needs fixed camera/lighting and a documented ROI; use separate uniform/dark sessions if needed."
+}

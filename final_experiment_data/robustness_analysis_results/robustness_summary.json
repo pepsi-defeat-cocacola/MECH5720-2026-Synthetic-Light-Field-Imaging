@@ -1,0 +1,114 @@
+{
+  "clean_holdout_RMSE_mm": 7.985810252772587,
+  "simulated_noise": [
+    {
+      "target_snr_db": 15,
+      "RMSE_mean_mm": 8.521407630420793,
+      "RMSE_SD_mm": 2.7135818659345468,
+      "RMSE_CI95_low": 5.025710954412241,
+      "RMSE_CI95_high": 12.951684329418194,
+      "MAE_mean_mm": 7.039741566756788,
+      "flagged_fraction": 1.0
+    },
+    {
+      "target_snr_db": 20,
+      "RMSE_mean_mm": 8.753995644785608,
+      "RMSE_SD_mm": 1.3523162780584863,
+      "RMSE_CI95_low": 6.466630943061294,
+      "RMSE_CI95_high": 10.937449144765155,
+      "MAE_mean_mm": 7.1196757886474895,
+      "flagged_fraction": 0.25
+    },
+    {
+      "target_snr_db": 25,
+      "RMSE_mean_mm": 8.511664112111799,
+      "RMSE_SD_mm": 0.6309678535365931,
+      "RMSE_CI95_low": 7.38122532615764,
+      "RMSE_CI95_high": 9.040664805717984,
+      "MAE_mean_mm": 7.146065299372182,
+      "flagged_fraction": 0.0
+    },
+    {
+      "target_snr_db": 30,
+      "RMSE_mean_mm": 8.034400280732319,
+      "RMSE_SD_mm": 0.23757506042745058,
+      "RMSE_CI95_low": 7.942206906053445,
+      "RMSE_CI95_high": 8.53960889306892,
+      "MAE_mean_mm": 6.872502994238443,
+      "flagged_fraction": 0.0
+    },
+    {
+      "target_snr_db": 35,
+      "RMSE_mean_mm": 7.985810252772586,
+      "RMSE_SD_mm": 0.0,
+      "RMSE_CI95_low": 7.985810252772587,
+      "RMSE_CI95_high": 7.985810252772587,
+      "MAE_mean_mm": 6.846387275547784,
+      "flagged_fraction": 0.0
+    },
+    {
+      "target_snr_db": 40,
+      "RMSE_mean_mm": 7.985810252772586,
+      "RMSE_SD_mm": 0.0,
+      "RMSE_CI95_low": 7.985810252772587,
+      "RMSE_CI95_high": 7.985810252772587,
+      "MAE_mean_mm": 6.846387275547784,
+      "flagged_fraction": 0.0
+    }
+  ],
+  "position_uncertainty": [
+    {
+      "position_sigma_mm": 0.0,
+      "RMSE_mean_mm": 7.985810252772587,
+      "RMSE_SD_mm": 0.0,
+      "RMSE_CI95_low": 7.985810252772587,
+      "RMSE_CI95_high": 7.985810252772587,
+      "MAE_mean_mm": 6.846387275547785,
+      "calibration_R2_mean": 0.9998402433317203
+    },
+    {
+      "position_sigma_mm": 0.25,
+      "RMSE_mean_mm": 8.252891166135802,
+      "RMSE_SD_mm": 1.5206170832574237,
+      "RMSE_CI95_low": 5.223822062503038,
+      "RMSE_CI95_high": 11.294039440439398,
+      "MAE_mean_mm": 6.968090664669256,
+      "calibration_R2_mean": 0.9998220279068685
+    },
+    {
+      "position_sigma_mm": 0.5,
+      "RMSE_mean_mm": 8.955739783568927,
+      "RMSE_SD_mm": 2.737019975847039,
+      "RMSE_CI95_low": 3.8447562219849374,
+      "RMSE_CI95_high": 14.725073481085802,
+      "MAE_mean_mm": 7.485649859590941,
+      "calibration_R2_mean": 0.9997363484599144
+    },
+    {
+      "position_sigma_mm": 1.0,
+      "RMSE_mean_mm": 11.500497719762452,
+      "RMSE_SD_mm": 4.519391472407555,
+      "RMSE_CI95_low": 4.103370947979919,
+      "RMSE_CI95_high": 20.782975543166934,
+      "MAE_mean_mm": 9.655462394608335,
+      "calibration_R2_mean": 0.9994814038790463
+    },
+    {
+      "position_sigma_mm": 2.0,
+      "RMSE_mean_mm": 19.04057287950111,
+      "RMSE_SD_mm": 7.788864740663407,
+      "RMSE_CI95_low": 6.828701626620978,
+      "RMSE_CI95_high": 36.336145829989206,
+      "MAE_mean_mm": 16.03729261598239,
+      "calibration_R2_mean": 0.9983518244940486
+    }
+  ],
+  "five_object_generalisation": {
+    "n_objects": 5.0,
+    "RMSE_mm": 8.68919220760986,
+    "MAE_mm": 7.9267961237625055,
+    "MAPE_percent": 0.6233105273066889,
+    "min_match_score": 0.8849340677261353,
+    "min_disparity_fit_R2": 0.9999003436109506
+  }
+}

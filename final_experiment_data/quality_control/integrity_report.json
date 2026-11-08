@@ -1,0 +1,189 @@
+{
+  "generated_utc": "2026-10-23T22:57:40.991592+00:00",
+  "root": "/home/mohamed/Documents/OneDrive/2026/Semester 2/MECH5720/LightField_Data/final_experiment_v8",
+  "pass": true,
+  "issues": [],
+  "warnings": [],
+  "totals": {
+    "sessions": 29,
+    "expected_dng": 543,
+    "recorded_dng": 543,
+    "verified_dng": 543
+  },
+  "sessions": [
+    {
+      "session": "sessions/lightfield/geometry_grid_01",
+      "mode": "lightfield",
+      "expected": 30,
+      "recorded": 30
+    },
+    {
+      "session": "sessions/lightfield/lf_holdout_01",
+      "mode": "lightfield",
+      "expected": 30,
+      "recorded": 30
+    },
+    {
+      "session": "sessions/lightfield/lf_holdout_02",
+      "mode": "lightfield",
+      "expected": 30,
+      "recorded": 30
+    },
+    {
+      "session": "sessions/lightfield/lf_holdout_03",
+      "mode": "lightfield",
+      "expected": 30,
+      "recorded": 30
+    },
+    {
+      "session": "sessions/lightfield/lf_holdout_04",
+      "mode": "lightfield",
+      "expected": 30,
+      "recorded": 30
+    },
+    {
+      "session": "sessions/lightfield/lf_layers_3diff_01",
+      "mode": "lightfield",
+      "expected": 30,
+      "recorded": 30
+    },
+    {
+      "session": "sessions/lightfield/lf_layers_3same_01",
+      "mode": "lightfield",
+      "expected": 30,
+      "recorded": 30
+    },
+    {
+      "session": "sessions/lightfield/lf_layers_5obj_01",
+      "mode": "lightfield",
+      "expected": 30,
+      "recorded": 30
+    },
+    {
+      "session": "sessions/lightfield/lf_train_01",
+      "mode": "lightfield",
+      "expected": 30,
+      "recorded": 30
+    },
+    {
+      "session": "sessions/lightfield/lf_train_02",
+      "mode": "lightfield",
+      "expected": 30,
+      "recorded": 30
+    },
+    {
+      "session": "sessions/lightfield/lf_train_03",
+      "mode": "lightfield",
+      "expected": 30,
+      "recorded": 30
+    },
+    {
+      "session": "sessions/lightfield/lf_train_04",
+      "mode": "lightfield",
+      "expected": 30,
+      "recorded": 30
+    },
+    {
+      "session": "sessions/reposition/reposition_01",
+      "mode": "reposition",
+      "expected": 30,
+      "recorded": 30
+    },
+    {
+      "session": "sessions/snr/snr_dark",
+      "mode": "snr",
+      "expected": 24,
+      "recorded": 24
+    },
+    {
+      "session": "sessions/snr/snr_textured",
+      "mode": "snr",
+      "expected": 24,
+      "recorded": 24
+    },
+    {
+      "session": "sessions/snr/snr_uniform_high",
+      "mode": "snr",
+      "expected": 24,
+      "recorded": 24
+    },
+    {
+      "session": "sessions/snr/snr_uniform_low",
+      "mode": "snr",
+      "expected": 24,
+      "recorded": 24
+    },
+    {
+      "session": "sessions/snr/snr_uniform_mid",
+      "mode": "snr",
+      "expected": 24,
+      "recorded": 24
+    },
+    {
+      "session": "sessions/ssim_reference/ssim_holdout_01",
+      "mode": "ssim_reference",
+      "expected": 3,
+      "recorded": 3
+    },
+    {
+      "session": "sessions/ssim_reference/ssim_holdout_02",
+      "mode": "ssim_reference",
+      "expected": 3,
+      "recorded": 3
+    },
+    {
+      "session": "sessions/ssim_reference/ssim_holdout_03",
+      "mode": "ssim_reference",
+      "expected": 3,
+      "recorded": 3
+    },
+    {
+      "session": "sessions/ssim_reference/ssim_holdout_04",
+      "mode": "ssim_reference",
+      "expected": 3,
+      "recorded": 3
+    },
+    {
+      "session": "sessions/ssim_reference/ssim_layers_3diff_01",
+      "mode": "ssim_reference",
+      "expected": 3,
+      "recorded": 3
+    },
+    {
+      "session": "sessions/ssim_reference/ssim_layers_3same_01",
+      "mode": "ssim_reference",
+      "expected": 3,
+      "recorded": 3
+    },
+    {
+      "session": "sessions/ssim_reference/ssim_layers_5obj_01",
+      "mode": "ssim_reference",
+      "expected": 3,
+      "recorded": 3
+    },
+    {
+      "session": "sessions/ssim_reference/ssim_train_01",
+      "mode": "ssim_reference",
+      "expected": 3,
+      "recorded": 3
+    },
+    {
+      "session": "sessions/ssim_reference/ssim_train_02",
+      "mode": "ssim_reference",
+      "expected": 3,
+      "recorded": 3
+    },
+    {
+      "session": "sessions/ssim_reference/ssim_train_03",
+      "mode": "ssim_reference",
+      "expected": 3,
+      "recorded": 3
+    },
+    {
+      "session": "sessions/ssim_reference/ssim_train_04",
+      "mode": "ssim_reference",
+      "expected": 3,
+      "recorded": 3
+    }
+  ]
+}

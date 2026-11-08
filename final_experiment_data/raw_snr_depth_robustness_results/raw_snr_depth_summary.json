@@ -1,0 +1,94 @@
+{
+  "snr_definition": "linear RAW luminance, (temporal mean - dark) / mean temporal std over repeats, 20*log10",
+  "noise_model": {
+    "a": 61.16114123026669,
+    "b": 21874.31311858597
+  },
+  "raw_calibration": {
+    "a_px": 2897.2663584564084,
+    "b_px_per_mm": 0.007091765465102764,
+    "R2": 0.999561547105948
+  },
+  "baseline_single_view_snr_dB_mean": 28.857650414565796,
+  "expA_multiframe": [
+    {
+      "frames_averaged": 1,
+      "SNR_dB": 28.923718960824896,
+      "n_predictions": 12,
+      "RMSE_mm": 7.245489852035104,
+      "MAE_mm": 6.308163354251481,
+      "bias_mm": 6.308163354251481,
+      "min_match_score": 0.9423850178718567
+    },
+    {
+      "frames_averaged": 2,
+      "SNR_dB": 31.93401891746471,
+      "n_predictions": 12,
+      "RMSE_mm": 7.196352242339643,
+      "MAE_mm": 6.228889161712175,
+      "bias_mm": 6.228889161712175,
+      "min_match_score": 0.9625611901283264
+    },
+    {
+      "frames_averaged": 3,
+      "SNR_dB": 33.69493150802152,
+      "n_predictions": 4,
+      "RMSE_mm": 7.22783032383784,
+      "MAE_mm": 6.261249012985672,
+      "bias_mm": 6.261249012985672,
+      "min_match_score": 0.9681124687194824
+    }
+  ],
+  "expB_noise_injection": [
+    {
+      "exposure_ms": 32.0,
+      "SNR_dB": 29.95789747939019,
+      "RMSE_mean_mm": 7.21232217931923,
+      "RMSE_CI95_low": 7.168461722954423,
+      "RMSE_CI95_high": 7.262696804285123,
+      "bias_mean_mm": 6.234797429972906,
+      "worst_match_score": 0.9402003884315491,
+      "extrapolated": false
+    },
+    {
+      "exposure_ms": 24.0,
+      "SNR_dB": 28.176936517221396,
+      "RMSE_mean_mm": 7.206253059188091,
+      "RMSE_CI95_low": 7.130265753966911,
+      "RMSE_CI95_high": 7.280676684593057,
+      "bias_mean_mm": 6.238854259755672,
+      "worst_match_score": 0.9257002472877502,
+      "extrapolated": false
+    },
+    {
+      "exposure_ms": 16.0,
+      "SNR_dB": 25.916820977237297,
+      "RMSE_mean_mm": 7.207020604038078,
+      "RMSE_CI95_low": 7.084708065509637,
+      "RMSE_CI95_high": 7.2874036862463765,
+      "bias_mean_mm": 6.2388494427613255,
+      "worst_match_score": 0.8975909948348999,
+      "extrapolated": false
+    }
+  ],
+  "noise_model_validation": [
+    {
+      "exposure_ms": 16.0,
+      "measured_SNR_dB": 25.15588018351819,
+      "simulated_SNR_dB": 24.911615001922556,
+      "difference_dB": -0.24426518159563315
+    },
+    {
+      "exposure_ms": 24.0,
+      "measured_SNR_dB": 26.98482261708445,
+      "simulated_SNR_dB": 26.750895283839586,
+      "difference_dB": -0.23392733324486414
+    },
+    {
+      "exposure_ms": 32.0,
+      "measured_SNR_dB": 28.287786530560126,
+      "simulated_SNR_dB": 28.05969993169508,
+      "difference_dB": -0.22808659886504756
+    }
+  ]
+}
