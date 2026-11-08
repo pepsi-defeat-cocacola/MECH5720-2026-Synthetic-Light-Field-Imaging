@@ -1,0 +1,105 @@
+{
+  "schema_version": "8.0",
+  "session_created_utc": "2026-10-23T06:12:06.595650+00:00",
+  "mode": "lightfield",
+  "name": "lf_layers_5obj_01",
+  "description": "Five-object layered scene with mixed materials/textures at measured depths",
+  "steps": [
+    {
+      "step_id": 1,
+      "cycle_index": 1,
+      "position_index": 1,
+      "nominal_x_mm": 0.0,
+      "repeats": 3
+    },
+    {
+      "step_id": 2,
+      "cycle_index": 1,
+      "position_index": 2,
+      "nominal_x_mm": 20.0,
+      "repeats": 3
+    },
+    {
+      "step_id": 3,
+      "cycle_index": 1,
+      "position_index": 3,
+      "nominal_x_mm": 40.0,
+      "repeats": 3
+    },
+    {
+      "step_id": 4,
+      "cycle_index": 1,
+      "position_index": 4,
+      "nominal_x_mm": 60.0,
+      "repeats": 3
+    },
+    {
+      "step_id": 5,
+      "cycle_index": 1,
+      "position_index": 5,
+      "nominal_x_mm": 80.0,
+      "repeats": 3
+    },
+    {
+      "step_id": 6,
+      "cycle_index": 1,
+      "position_index": 6,
+      "nominal_x_mm": 100.0,
+      "repeats": 3
+    },
+    {
+      "step_id": 7,
+      "cycle_index": 1,
+      "position_index": 7,
+      "nominal_x_mm": 120.0,
+      "repeats": 3
+    },
+    {
+      "step_id": 8,
+      "cycle_index": 1,
+      "position_index": 8,
+      "nominal_x_mm": 140.0,
+      "repeats": 3
+    },
+    {
+      "step_id": 9,
+      "cycle_index": 1,
+      "position_index": 9,
+      "nominal_x_mm": 160.0,
+      "repeats": 3
+    },
+    {
+      "step_id": 10,
+      "cycle_index": 1,
+      "position_index": 10,
+      "nominal_x_mm": 180.0,
+      "repeats": 3
+    }
+  ],
+  "scene_condition": "textured",
+  "geometry": {
+    "axis": "horizontal camera translation",
+    "nominal_baseline_mm": 180.0,
+    "position_uncertainty_mm": 0.5,
+    "depth_reference": "Front of lens at x=100 mm, measured straight forward",
+    "depth_uncertainty_documented_in": "targets.csv"
+  },
+  "lighting": "Overhead room lights only; fixed",
+  "focus": "Fixed lens focus and camera orientation",
+  "roi_definition": "",
+  "reference_method": "",
+  "reference_kind": "",
+  "controls_requested": {
+    "exposure_us": 32000,
+    "gain": 4.0,
+    "ae": false
+  },
+  "api_url": "http://127.0.0.1:8090",
+  "camera_config": {
+    "width": 1920,
+    "height": 1080,
+    "format": "RGB888"
+  },
+  "notes": "Five product boxes at measured depths with mixed textures and surface finishes. All object depths recorded in targets.csv. Objects remained stationary during the sweep.",
+  "protocol_notes": "Full static scene captured at multiple measured x with unchanged exposure, gain, orientation, and focus."
+}
