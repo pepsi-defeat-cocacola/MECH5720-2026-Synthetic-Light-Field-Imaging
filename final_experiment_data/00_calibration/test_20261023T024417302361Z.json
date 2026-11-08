@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-10-23T02:44:18.803082+00:00",
+  "file": "test_20261023T024417302361Z.dng",
+  "sha256": "51be1f2840f2fb9423df7fb86fa9ca21667f261716ef998cd2d3cd13f7f23201",
+  "bytes": 2592736,
+  "settings_requested": {
+    "exposure_us": 12000,
+    "gain": 8.0,
+    "ae": false
+  },
+  "stats": {
+    "raw_height": 1080,
+    "raw_width": 1920,
+    "black_levels_dn": "[16, 16, 16, 16]",
+    "white_level_dn": 1023,
+    "min_dn": 25,
+    "median_dn": 367.0,
+    "p99_dn": 636.0,
+    "max_dn": 1023,
+    "saturated_pct": 0.001254,
+    "near_black_pct": 0.0
+  },
+  "frame_metadata": {}
+}
